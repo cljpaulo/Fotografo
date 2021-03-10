@@ -72,3 +72,23 @@ span {
 #sobre button {
     margin-bottom: 50px;
 }
+
+
+/* SERVIÇOS */
+#servicos {
+    width: 100%; float: left; text-align: center; padding: 3% 4%;
+}
+
+#servicos img {
+    width: 100px; height: 100px;
+}
+
+#servicos h2 {
+    font-size: 2.5em; font-weight: 700; margin-bottom: 50px;
+}
+
+#servicos .card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
