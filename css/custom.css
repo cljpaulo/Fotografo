@@ -35,3 +35,40 @@ span {
     border-bottom: solid 4px #f2f2f2;
     color: #f2f2f2;
 }
+
+
+/* BANNER */
+#banner {
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: url(../assets/camera.jpg) no-repeat fixed;
+}
+
+#banner .title h2 {
+    font-size: 2.5em; color: #f2f2f2; font-weight: 700; margin-top: 100px; margin-bottom: 50px;
+}
+
+#banner .title h3 {
+    font-size: 1.5em; color: #f2f2f2; margin-bottom: 80px;
+}
+
+#banner .title button {
+    margin-bottom: 50px;
+}
+
+
+/* SOBRE */
+
+#sobre {
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--primary); color: #f2f2f2;
+}
+
+#sobre h2 {
+    font-size: 2.5em; font-weight: 700; margin-bottom: 50px;
+}
+
+#sobre p {
+    font-size: 1.5em; margin-bottom: 80px;
+}
+
+#sobre button {
+    margin-bottom: 50px;
+}
