@@ -5,7 +5,7 @@ body, html {
 
 span {
     font-family: 'Oleo Script', cursive;
-    color: #f2f2f2;
+    color: var(--light);
 }
 
 
@@ -13,7 +13,13 @@ span {
 #header {
     width: 100%;
     background: var(--primary);
-    transition: background ease-out 0.2s;
+    transition: background ease-out 0.4s;
+}
+
+#header.active {
+    position: fixed;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 00.2s);
+    z-index: 9999;
 }
 
 #header .navbar-collapse {
@@ -27,13 +33,13 @@ span {
     padding-right: 0;
     margin-left: 15px;
     margin-right: 15px;
-    color: #f2f2f2;
+    color: var(--light);
     border-bottom: solid 4px transparent;
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px #f2f2f2;
-    color: #f2f2f2;
+    border-bottom: solid 4px var(--light);
+    color: var(--light);
 }
 
 
@@ -43,11 +49,11 @@ span {
 }
 
 #banner .title h2 {
-    font-size: 2.5em; color: #f2f2f2; font-weight: 700; margin-top: 100px; margin-bottom: 50px;
+    font-size: 2.5em; color: var(--light); font-weight: 700; margin-top: 100px; margin-bottom: 50px;
 }
 
 #banner .title h3 {
-    font-size: 1.5em; color: #f2f2f2; margin-bottom: 80px;
+    font-size: 1.5em; color: var(--light); margin-bottom: 80px;
 }
 
 #banner .title button {
@@ -58,7 +64,7 @@ span {
 /* SOBRE */
 
 #sobre {
-    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--primary); color: #f2f2f2;
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--primary); color: var(--light);
 }
 
 #sobre h2 {
@@ -99,3 +105,6 @@ span {
     float: none; 
     margin-bottom: 10px; 
 }
+
+
+/* FOTOS */
