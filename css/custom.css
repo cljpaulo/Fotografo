@@ -18,7 +18,7 @@ span {
 
 #header.active {
     position: fixed;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 00.2s);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2s);
     z-index: 9999;
 }
 
@@ -108,3 +108,15 @@ span {
 
 
 /* FOTOS */
+#fotos {
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--primary); color: var(--light);
+}
+
+#fotos .row img {
+    border-radius: 5px;
+    transition: all ease-out 0.2s;
+}
+
+#fotos .row img:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4s);
+}
