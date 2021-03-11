@@ -82,15 +82,15 @@ span {
 
 /* SERVIÇOS */
 #servicos {
-    width: 100%; float: left; text-align: center; padding: 3% 4%;
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--light);
 }
 
 #servicos img {
-    width: 100px; height: 100px;
+    width: 100px; height: 100px; 
 }
 
 #servicos h2 {
-    font-size: 2.5em; font-weight: 700; margin-bottom: 50px;
+    font-size: 2.5em; font-weight: 700; margin-bottom: 50px; 
 }
 
 #servicos .card-img-top{
@@ -104,6 +104,7 @@ span {
     margin: 0 auto; 
     float: none; 
     margin-bottom: 10px; 
+    background: var(--light);
 }
 
 
@@ -119,4 +120,14 @@ span {
 
 #fotos .row img:hover {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4s);
+}
+
+/* CONTATO */
+#contato {
+    width: 100%; float: left; text-align: center; padding: 3% 4%; background: var(--light);
+}
+
+/* FOOTER */
+#footer {
+    width: 100%; float: left; text-align: center; background: var(--primary); color: var(--light);
 }
